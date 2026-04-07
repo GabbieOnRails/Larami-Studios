@@ -1,7 +1,7 @@
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI } from "@google/genai";
 import { rooms } from "../data/rooms";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
 
 const SYSTEM_INSTRUCTION = `
 You are the Larami Content Studio AI Assistant. Your goal is to help users find the perfect creative space for their photography, videography, or brand content needs.
