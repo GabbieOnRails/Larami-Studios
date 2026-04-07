@@ -38,7 +38,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] overflow-hidden rounded-sm">
               <img
-                src="https://picsum.photos/seed/larami-about/1200/1500"
+                src="https://i.ibb.co/vxf47PNH/fatimah-adetona-1768852633-3813734766570670715-4356536344.jpg"
                 alt="Larami Interior"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -74,7 +74,7 @@ export default function About() {
             </div>
             <div className="mt-12 flex items-center space-x-4">
               <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-primary">
-                <img src="https://picsum.photos/seed/founder/200/200" alt="Founder" />
+                <img src="https://i.ibb.co/8LGSKBT1/fatimah-adetona-1768852633-3813734766662956799-4356536344-1.jpg" alt="Founder" />
               </div>
               <div>
                 <p className="text-brand-dark font-serif font-semibold">Fatima</p>
@@ -92,7 +92,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] overflow-hidden rounded-sm">
               <img
-                src="https://picsum.photos/seed/larami-about-2/1200/1500"
+                src="https://i.ibb.co/8LGSKBT1/fatimah-adetona-1768852633-3813734766662956799-4356536344-1.jpg"
                 alt="Larami Studio"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

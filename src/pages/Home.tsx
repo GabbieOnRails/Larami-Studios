@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import Hero from "../components/Hero";
 import RoomCard from "../components/RoomCard";
 import Gallery from "../components/Gallery";
+import FAQ from "../components/FAQ";
 import { rooms } from "../data/rooms";
 import { Camera, Video, Sparkles, Layout, Palette, Share2, Star, Users } from "lucide-react";
 import { useEffect } from "react";
@@ -113,6 +114,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <FAQ />
 
       <Gallery />
 
